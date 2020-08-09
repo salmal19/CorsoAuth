@@ -1,0 +1,24 @@
+﻿@model CorsoAuth.Models.UtenteLoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(false)
+    <div>@Html.LabelFor(m => Model.Email)</div>
+    <div>
+        @Html.TextBoxFor(m => Model.Email)
+        @Html.ValidationMessageFor(m => Model.Email)
+    </div>
+    <div>@Html.LabelFor(m => Model.Password)</div>
+    <div>
+        @Html.PasswordFor(m => Model.Password)
+        @Html.ValidationMessageFor(m => Model.Password)
+    </div>
+    <br />
+    <input type="submit" value="Login" />
+}

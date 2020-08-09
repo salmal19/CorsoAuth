@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorsoAuth", "CorsoAuth\CorsoAuth.csproj", "{8D0F81FF-644F-45A7-B27C-19FCD306726A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D0F81FF-644F-45A7-B27C-19FCD306726A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0F81FF-644F-45A7-B27C-19FCD306726A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0F81FF-644F-45A7-B27C-19FCD306726A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0F81FF-644F-45A7-B27C-19FCD306726A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44D480DB-2511-4E69-9642-53979268DBB0}
+	EndGlobalSection
+EndGlobal

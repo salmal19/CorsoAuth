@@ -1,0 +1,34 @@
+﻿@model CorsoAuth.Models.UtenteCreateModel
+
+@{
+    ViewBag.Title = "Registrazione";
+}
+
+<h2>Registrazione</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(false)
+    <div>@Html.LabelFor(m => Model.Email)</div>
+    <div>
+        @Html.TextBoxFor(m => Model.Email)
+        @Html.ValidationMessageFor(m => Model.Email)
+    </div>
+    <div>@Html.LabelFor(m => Model.Username)</div>
+    <div>
+        @Html.TextBoxFor(m => Model.Username)
+        @Html.ValidationMessageFor(m => Model.Username)
+    </div>
+    <div>@Html.LabelFor(m => Model.Password)</div>
+    <div>
+        @Html.TextBoxFor(m => Model.Password)
+        @Html.ValidationMessageFor(m => Model.Password)
+    </div>
+    <div>@Html.LabelFor(m => Model.RePassword)</div>
+    <div>
+        @Html.TextBoxFor(m => Model.RePassword)
+        @Html.ValidationMessageFor(m => Model.RePassword)
+    </div>
+    <br />
+    <input type="submit" value="Registra" />
+}
